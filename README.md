@@ -6,7 +6,7 @@ This API takes a number as input and returns interesting mathematical properties
 
 ### Endpoint
 
-GET https://funnumber.onrender.com/api/classify-number?number=371
+GET https://funnumber.onrender.com/api/classify-number?number=448
 
 ### Request Parameters
 
