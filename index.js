@@ -27,7 +27,7 @@ app.get('/api/classify-number', async (req, res) => {
   let funFact = "Could not retrieve fun fact."; // Default message
 
   try {
-    const funFactResponse = await axios.get(http://numbersapi.com/${number}/math);
+    const funFactResponse = await axios.get("http://numbersapi.com/${number}/math");
     funFact = funFactResponse.data;
   } catch (error) {
     console.error("Error fetching fun fact:", error);
@@ -103,7 +103,7 @@ function calculateDigitSum(num) {
 }
 
 app.listen(port, () => {
-  console.log(Server listening on port ${port});
+  console.log("Server listening on port ${port}");
 });
 
 module.exports = app;
